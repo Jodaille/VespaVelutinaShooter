@@ -1529,11 +1529,11 @@ Wire Wire Line
 Connection ~ 4850 2050
 Wire Wire Line
 	4850 2050 4850 2000
-Text Notes 3650 1400 0    50   ~ 0
+Text Notes 3600 1400 0    50   ~ 0
 GPIO1 Sda
-Text Notes 3650 1300 0    50   ~ 0
+Text Notes 3600 1300 0    50   ~ 0
 GPIO3 Scl
-Text Notes 3650 1500 0    50   ~ 0
+Text Notes 3600 1500 0    50   ~ 0
 GND
 Text Notes 3600 1000 0    50   ~ 0
 GPIO0
