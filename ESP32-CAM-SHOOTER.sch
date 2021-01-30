@@ -60,7 +60,7 @@ U 1 1 600A6DA6
 P 5450 1200
 F 0 "J5" H 5400 1450 50  0000 L CNN
 F 1 "I2C SX1509 (16 GPIO)" H 5150 800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5450 1200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5450 1200 50  0001 C CNN
 F 3 "~" H 5450 1200 50  0001 C CNN
 	1    5450 1200
 	1    0    0    -1  
@@ -76,8 +76,6 @@ F 3 "" H 4750 800 50  0001 C CNN
 	1    4750 800 
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	5250 1100 4750 1100
 Wire Wire Line
 	4750 1100 4750 800 
 $Comp
@@ -116,47 +114,28 @@ Wire Wire Line
 Wire Wire Line
 	1900 900  2150 900 
 Connection ~ 1550 1200
-Connection ~ 4750 1100
 Wire Wire Line
 	3550 1300 4300 1300
-Wire Wire Line
-	4850 1300 4850 1200
-Wire Wire Line
-	4850 1200 5250 1200
-Wire Wire Line
-	4900 1400 4900 1300
-Wire Wire Line
-	4900 1300 5250 1300
 $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 600CBD87
 P 4250 700
 F 0 "J4" H 4300 800 50  0000 R CNN
 F 1 "Flash mode" H 4300 500 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4250 700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4250 700 50  0001 C CNN
 F 3 "~" H 4250 700 50  0001 C CNN
 	1    4250 700 
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4050 700  3950 700 
-Wire Wire Line
-	5250 1400 5000 1400
-Wire Wire Line
-	5000 1400 5000 1500
-Wire Wire Line
-	5000 1500 4550 1500
-Wire Wire Line
-	4550 1500 4550 1200
-Wire Wire Line
-	4550 1200 4400 1200
 $Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 600DC7EA
 P 6450 1200
 F 0 "J6" H 6400 1450 50  0000 L CNN
 F 1 "I2C DS3231 RTC" H 6250 800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6450 1200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6450 1200 50  0001 C CNN
 F 3 "~" H 6450 1200 50  0001 C CNN
 	1    6450 1200
 	1    0    0    -1  
@@ -167,7 +146,7 @@ U 1 1 600DE3E9
 P 7550 1200
 F 0 "J7" H 7500 1450 50  0000 L CNN
 F 1 "I2C ssd1306 Screen" H 7250 800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7550 1200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7550 1200 50  0001 C CNN
 F 3 "~" H 7550 1200 50  0001 C CNN
 	1    7550 1200
 	1    0    0    -1  
@@ -178,23 +157,15 @@ U 1 1 600DF17F
 P 8550 1200
 F 0 "J8" H 8500 1450 50  0000 L CNN
 F 1 "I2C Autre" H 8350 800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8550 1200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8550 1200 50  0001 C CNN
 F 3 "~" H 8550 1200 50  0001 C CNN
 	1    8550 1200
 	1    0    0    -1  
 $EndComp
-Connection ~ 5250 1100
-Wire Wire Line
-	5250 1200 6250 1200
-Connection ~ 5250 1200
 Wire Wire Line
 	5250 1300 6250 1300
-Connection ~ 5250 1300
 Wire Wire Line
 	5250 1400 6250 1400
-Connection ~ 5250 1400
-Wire Wire Line
-	5250 1100 6250 1100
 Connection ~ 6250 1100
 Wire Wire Line
 	6250 1200 7350 1200
@@ -1484,32 +1455,32 @@ F6 32 85 32 F9 E0 00 F4 8D 3C 5A 01 5C E6 38 EE 2C C7 71 A7 74 3A 9D 5B 5B 95 FF
 EndData
 $EndBitmap
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J12
 U 1 1 60142EBD
 P 7300 2550
-F 0 "J?" H 7380 2542 50  0000 L CNN
+F 0 "J12" H 7380 2542 50  0000 L CNN
 F 1 "ADS1115" H 7380 2451 50  0000 L CNN
-F 2 "" H 7300 2550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 7300 2550 50  0001 C CNN
 F 3 "~" H 7300 2550 50  0001 C CNN
 	1    7300 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J9
 U 1 1 60143E8E
 P 5450 2400
-F 0 "J?" H 5530 2392 50  0000 L CNN
+F 0 "J9" H 5530 2392 50  0000 L CNN
 F 1 "PCA9685" H 5300 1950 50  0000 L CNN
-F 2 "" H 5450 2400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5450 2400 50  0001 C CNN
 F 3 "~" H 5450 2400 50  0001 C CNN
 	1    5450 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 60151FD6
 P 4850 2000
-F 0 "#PWR?" H 4850 1750 50  0001 C CNN
+F 0 "#PWR0104" H 4850 1750 50  0001 C CNN
 F 1 "GND" H 4855 1827 50  0000 C CNN
 F 2 "" H 4850 2000 50  0001 C CNN
 F 3 "" H 4850 2000 50  0001 C CNN
@@ -1561,10 +1532,10 @@ GND
 Wire Wire Line
 	4050 1100 4750 1100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 60171E47
 P 3650 1900
-F 0 "#PWR?" H 3650 1650 50  0001 C CNN
+F 0 "#PWR0105" H 3650 1650 50  0001 C CNN
 F 1 "GND" H 3655 1727 50  0000 C CNN
 F 2 "" H 3650 1900 50  0001 C CNN
 F 3 "" H 3650 1900 50  0001 C CNN
@@ -1579,18 +1550,12 @@ Wire Wire Line
 	5250 2400 4300 2400
 Wire Wire Line
 	4300 2400 4300 1300
-Connection ~ 4300 1300
-Wire Wire Line
-	4300 1300 4850 1300
 Wire Wire Line
 	5250 2500 4250 2500
 Wire Wire Line
 	4250 2500 4250 1400
 Wire Wire Line
 	3550 1400 4250 1400
-Connection ~ 4250 1400
-Wire Wire Line
-	4250 1400 4900 1400
 Text Notes 5100 2400 0    50   ~ 0
 Scl
 Text Notes 5100 2500 0    50   ~ 0
@@ -1603,10 +1568,10 @@ Connection ~ 4200 1200
 Wire Wire Line
 	4200 1200 3550 1200
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0106
 U 1 1 60176FC6
 P 4650 3050
-F 0 "#PWR?" H 4650 2900 50  0001 C CNN
+F 0 "#PWR0106" H 4650 2900 50  0001 C CNN
 F 1 "VCC" H 4665 3223 50  0000 C CNN
 F 2 "" H 4650 3050 50  0001 C CNN
 F 3 "" H 4650 3050 50  0001 C CNN
@@ -1625,7 +1590,6 @@ Wire Wire Line
 	6550 1750 4400 1750
 Wire Wire Line
 	4400 1750 4400 1200
-Connection ~ 4400 1200
 Wire Wire Line
 	4400 1200 4200 1200
 Text Notes 6900 2250 0    50   ~ 0
@@ -1665,21 +1629,21 @@ Text Notes 5100 2600 0    50   ~ 0
 Text Notes 5100 2200 0    50   ~ 0
 GND
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J11
 U 1 1 6018122F
 P 5950 3050
-F 0 "J?" H 5868 3367 50  0000 C CNN
+F 0 "J11" H 5868 3367 50  0000 C CNN
 F 1 "Laser sensor" H 5750 2850 50  0000 C CNN
-F 2 "" H 5950 3050 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5950 3050 50  0001 C CNN
 F 3 "~" H 5950 3050 50  0001 C CNN
 	1    5950 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 60183A2F
 P 6400 2950
-F 0 "#PWR?" H 6400 2700 50  0001 C CNN
+F 0 "#PWR0107" H 6400 2700 50  0001 C CNN
 F 1 "GND" H 6405 2777 50  0000 C CNN
 F 2 "" H 6400 2950 50  0001 C CNN
 F 3 "" H 6400 2950 50  0001 C CNN
@@ -1699,10 +1663,10 @@ Wire Wire Line
 Wire Wire Line
 	6600 2750 7100 2750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 601903E9
 P 6500 3900
-F 0 "#PWR?" H 6500 3650 50  0001 C CNN
+F 0 "#PWR0108" H 6500 3650 50  0001 C CNN
 F 1 "GND" H 6505 3727 50  0000 C CNN
 F 2 "" H 6500 3900 50  0001 C CNN
 F 3 "" H 6500 3900 50  0001 C CNN
@@ -1716,12 +1680,12 @@ Wire Wire Line
 Text Notes 6100 3150 0    50   ~ 0
 DOUT
 $Comp
-L Connector:Conn_01x05_Female J?
+L Connector:Conn_01x05_Female J10
 U 1 1 601ADA8C
 P 5750 3750
-F 0 "J?" H 5642 4135 50  0000 C CNN
+F 0 "J10" H 5642 4135 50  0000 C CNN
 F 1 "MAX9814" H 5600 3450 50  0000 C CNN
-F 2 "" H 5750 3750 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 5750 3750 50  0001 C CNN
 F 3 "~" H 5750 3750 50  0001 C CNN
 	1    5750 3750
 	-1   0    0    -1  
@@ -1757,4 +1721,24 @@ Text Notes 6100 3050 0    50   ~ 0
 GND
 Text Notes 6000 3950 0    50   ~ 0
 GND
+Wire Wire Line
+	4750 1100 5250 1100
+Connection ~ 4750 1100
+Connection ~ 5250 1100
+Wire Wire Line
+	5250 1100 6250 1100
+Wire Wire Line
+	4400 1200 5250 1200
+Connection ~ 4400 1200
+Connection ~ 5250 1200
+Wire Wire Line
+	5250 1200 6250 1200
+Wire Wire Line
+	4300 1300 5250 1300
+Connection ~ 4300 1300
+Connection ~ 5250 1300
+Wire Wire Line
+	4250 1400 5250 1400
+Connection ~ 4250 1400
+Connection ~ 5250 1400
 $EndSCHEMATC
