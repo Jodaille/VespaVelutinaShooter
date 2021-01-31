@@ -2,11 +2,11 @@
 
 ## Objectif du PCB
 
-- Détection acoustique du vol de frelon (micro)
-- Localisation du point le plus sombre de l'image prise avec la caméra de l'ESP-32
-- balayage de la zone avec le pan-tilt (2 servos)
-- détection du frelon par capteur laser
-- collage du relais
+- Détection acoustique du vol de frelon (micro sur ADS1115)
+- Localisation du point le plus sombre de l'image prise avec la caméra de l'ESP32-Cam
+- balayage de la zone avec le pan-tilt (2 servos controllés par PCA9685)
+- détection du frelon par capteur laser (Dout sur ADS1115)
+- collage du relais (PCA9685)
 - ouverture electrovanne d'air comprimé
 - sauvegarde de l'image sur la carte Sd
 - projection d'une bille d'airsoft
