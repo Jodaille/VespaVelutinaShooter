@@ -38,3 +38,21 @@ https://www.adafruit.com/product/3013
 Permttrait: 
 - Activation pendant la journée
 - conserver l'heure des détections (recouper avec un enregistrement video par exemple)
+
+# PCB prévisualisation
+
+![Rendu 3D KiCad](ESP32-CAM-SHOOTER.png?raw=true "Rendu 3D KiCad du PCB")
+
+# Projets liés/utilisés
+
+Le détecteur de Bernard: 
+
+https://github.com/Barrois/Detecteur-ESP32-Cam-Blob-Detector
+
+Enregistrements audio de Vespa Velutina:
+
+https://github.com/Jodaille/VespaVelutinaAudioRecords
+
+Merci à EloquentArduino pour son projet de détection dans l'image avec un ESP-32 !
+
+https://github.com/eloquentarduino/EloquentArduino
